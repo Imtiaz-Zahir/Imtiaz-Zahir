@@ -7,7 +7,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Imtiaz-Zahir&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact)<br/>
 ![](https://github-readme-stats.vercel.app/api?username=Imtiaz-Zahir&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](http://storeaiphotos.free.nf/?i=1)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Imtiaz-Zahir&theme=midnight-purple&hide_border=true)
 
 
 ## 🏆 GitHub Trophies
