@@ -19,7 +19,6 @@ export default function Hero() {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
@@ -40,12 +39,12 @@ export default function Hero() {
           My passion for learning and unquenchable curiosity fuels my drive to
           explore the ever-evolving world of technology.
         </p>
-        <button
+        <span
           onClick={scrollDown}
           className="cursor-pointer sm:py-4 py-2 sm:px-12 px-4 bg-yellow-400 transition-all text-black text-lg font-bold font-mono hover:bg-transparent border border-yellow-400 hover:text-white"
         >
           Projects
-        </button>
+        </span>
         <a href="https://github.com/Imtiaz-Zahir" target="_blank">
           <button className="sm:py-4 py-2 sm:px-12 px-4 hover:bg-yellow-400 hover:text-black text-lg font-bold font-mono ml-4 transition-all border border-yellow-400">
             <svg

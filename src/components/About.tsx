@@ -41,16 +41,16 @@ export default function About() {
           together.
         </p>
         <div className="my-12 text-center md:text-start">
-          <button
+          <span
             onClick={scrollDown}
             className="py-4 px-8 bg-yellow-400 mx-6 my-2 text-black font-bold cursor-pointer"
           >
             HIRE ME NOW
-          </button>
+          </span>
           <a href="">
-            <button className="py-4 px-8 bg-yellow-400 mx-6 my-2 text-black font-bold">
+            <span className="py-4 px-8 bg-yellow-400 mx-6 my-2 text-black font-bold">
               VIEW RESUME
-            </button>
+            </span>
           </a>
         </div>
       </div>

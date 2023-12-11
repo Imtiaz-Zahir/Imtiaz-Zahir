@@ -20,13 +20,14 @@ export function ScrollUp() {
         ></path>
       </svg>
     </button>
-  )
+  );
 }
 
-export function scrollDown(m) {
+export function scrollDown(m: React.MouseEvent<HTMLElement>) {
   const text =
-    m.target.innerText == "CONTACT NOW" || m.target.innerText == "HIRE ME NOW"
+    m.currentTarget.innerText == "CONTACT NOW" ||
+    m.currentTarget.innerText == "HIRE ME NOW"
       ? "contact"
-      : m.target.innerText;
+      : m.currentTarget.innerText;
   document.getElementById(text.toLowerCase())?.scrollIntoView();
 }
