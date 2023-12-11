@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import scrollDown from "./scroll";
+import {scrollDown} from "./scroll";
 
 export default function Hero() {
   const el = useRef(null);

@@ -1,4 +1,4 @@
-import scrollDown from "./scroll";
+import {scrollDown} from "./scroll";
 
 export default function About() {
   return (

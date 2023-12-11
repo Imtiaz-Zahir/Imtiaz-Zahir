@@ -1,5 +1,5 @@
 import { useState } from "react";
-import scrollDown from "./scroll";
+import {scrollDown} from "./scroll";
 
 const links = ["About", "Skills", "Projects", "Experience", "Contact Now"];
 

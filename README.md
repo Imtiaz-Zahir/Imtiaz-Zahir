@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Sohoz Learning<br>🤝 I’m looking for help with <br>🌱 I’m currently learning Blockchain<br>💬 Ask me about Web development 
+🔭 I’m currently working on <br>🤝 I’m looking for help with <br>🌱 I’m currently learning Blockchain<br>💬 Ask me about Web 
 
 
 # 💻 Tech Stack:
