@@ -21,7 +21,7 @@ export default function Project() {
   return (
     <section
       id="projects"
-      className="px-0 xs:px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 my-20"
+      className="px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 my-20"
     >
       <h1 className="text-center uppercase text-5xl font-semibold after:contents-[''] after:w-60 after:h-1 after:bg-gray-500 after:lg:block after:m-auto after:rounded-full after:hidden">
         Projects

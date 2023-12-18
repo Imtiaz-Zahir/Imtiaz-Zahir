@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="w-full px-0 xs:px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 py-20"
+      className="w-full px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 py-20"
     >
       <div
         className="w-3/4 grid grid-cols-1 md:grid-cols-3 gap-12 mx-auto justify-between items-center text-center"

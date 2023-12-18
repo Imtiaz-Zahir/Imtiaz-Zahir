@@ -26,7 +26,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="px-0 xs:px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 lg:flex items-center justify-between mb-20 overflow-hidden"
+      className="px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 lg:flex items-center justify-between mb-20 overflow-hidden"
     >
       <div className="lg:w-1/2 p-4 bim" data-aos="fade-right">
         <h1 className="md:text-6xl text-4xl font-bold my-4">
@@ -41,12 +41,12 @@ export default function Hero() {
         </p>
         <span
           onClick={scrollDown}
-          className="cursor-pointer sm:py-4 py-2 sm:px-12 px-4 bg-yellow-400 transition-all text-black text-lg font-bold font-mono hover:bg-transparent border border-yellow-400 hover:text-white"
+          className="cursor-pointer sm:py-4 py-2 sm:px-12 px-4 bg-yellow-400 transition-all text-black text-lg font-bold font-mono hover:bg-transparent border border-yellow-400 hover:text-white duration-300"
         >
           Projects
         </span>
         <a href="https://github.com/Imtiaz-Zahir" target="_blank">
-          <button className="sm:py-4 py-2 sm:px-12 px-4 hover:bg-yellow-400 hover:text-black text-lg font-bold font-mono ml-4 transition-all border border-yellow-400">
+          <span className="sm:py-4 py-2 sm:px-12 px-4 hover:bg-yellow-400 hover:text-black text-lg font-bold font-mono ml-4 transition-all border border-yellow-400 duration-300">
             <svg
             className="mr-2 h-6 inline-block"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Hero() {
               ></path>
             </svg>
             GitHub
-          </button>
+          </span>
         </a>
       </div>
       <div className="lg:w-1/2 hidden lg:block" data-aos="fade-left">

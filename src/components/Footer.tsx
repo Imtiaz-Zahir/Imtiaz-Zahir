@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-0 xs:px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 md:flex justify-between py-6 bg-blue-700 items-center">
+    <footer className="px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 md:flex justify-between py-6 bg-blue-700 items-center">
       <p className="text-center font-body text-white md:text-left">
         © Copyright 2023. All right reserved to
         <a href="./">

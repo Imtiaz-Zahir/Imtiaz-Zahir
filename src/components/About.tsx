@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-0 xs:px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 lg:flex my-20"
+      className="px-2 sm:px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-24 lg:flex my-20"
     >
       <div className="w-2/5 hidden lg:block px-12">
         <img
@@ -40,15 +40,15 @@ export default function About() {
           exploration and let's harness the transformative power of technology
           together.
         </p>
-        <div className="my-12 text-center md:text-start">
+        <div className="my-12 flex sm:justify-start justify-center items-center flex-col sm:flex-row gap-12">
           <span
             onClick={scrollDown}
-            className="py-4 px-8 bg-yellow-400 mx-6 my-2 text-black font-bold cursor-pointer"
+            className="py-4 px-8 bg-yellow-400 my-2 text-black font-bold cursor-pointer mx-auto sm:mx-0"
           >
             HIRE ME NOW
           </span>
           <a href="">
-            <span className="py-4 px-8 bg-yellow-400 mx-6 my-2 text-black font-bold">
+            <span className="py-4 px-8 bg-yellow-400 my-2 text-black font-bold">
               VIEW RESUME
             </span>
           </a>

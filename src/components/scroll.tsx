@@ -23,6 +23,7 @@ export function ScrollUp() {
   );
 }
 
+
 export function scrollDown(m: React.MouseEvent<HTMLElement>) {
   const text =
     m.currentTarget.innerText == "CONTACT NOW" ||
